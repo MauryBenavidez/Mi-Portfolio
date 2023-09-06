@@ -1,0 +1,26 @@
+{
+    "profile": {
+        "rol": "FullStack Web Developer",
+        "description": "🤓 Hello! I'm Mauricio, I'm 20 years old, and I'm a Technical Programmer and Full Stack Developer. I love programming and technology.",
+        "second_description": "📚 Since I started in the IT world, I've been seeking to learn as much as possible, tackle new challenges, and gain experiences in any environment, both professionally and personally."
+    },
+    "experience": {
+        "title": "Experiences-Studies",
+        "first-job-title": "Technical Programmer",
+        "first-job-dates": "January 2016 - December 2021",
+        "first-job-description": "I completed my secondary studies at EPET N20 in the city of Neuquén. In this institution, I worked on both team and individual projects where I used the following technologies and languages: Arduino, C++, PHP, phpMyAdmin, SQL, MySQL, Flutter, Dart, HTML, CSS.",
+        "second-job-title": "Henry",
+        "second-job-dates": "2022 - 2023",
+        "second-job-description": "After finishing my studies, I continued at Henry to expand my knowledge and skills. Here, I completed multiple team projects and used various technologies and languages: Redux.js, Node.js, React.js, GitHub, CSS, HTML."
+    },
+    "hobbies": {
+        "title": "Hobbies",
+        "first-hobbie": "Calisthenics",
+        "first-hobbie-description": "I started training about 4 years ago in my room. It all began as an attempt to change my physique. Shortly after, I met a Calisthenics instructor and joined his classes. I liked this sport so much that even when the pandemic hit, I continued training at home and improving my physical skills. Nowadays, thanks to this sport, I've made great friends and acquired skills that few people can accomplish. It also turned me into a disciplined and consistent person, as I learned the multitude of things one can achieve by maintaining this lifestyle. Calisthenics has become a very important part of my life, and it's something I enjoy doing with all my heart, just like programming. ❤️",
+        "second-hobbie": "Video games",
+        "second-hobbie-description": "From a very young age, I've had an immense love for video games. With my siblings, we used to play, and I always enjoyed competing against them and trying to win. As I grew up, my love for video games continued, but in a different way: it became a kind of relaxing break from my daily life activities. Nowadays, although I don't have as much time to play as before, I still find joy in connecting with my friends and chatting while we play together. Video games are not only a source of entertainment but also a way to maintain bonds and share special moments with friends. 🎮"
+    },
+    "skills":{
+        "subtitle": "Years of experience"
+    }
+}

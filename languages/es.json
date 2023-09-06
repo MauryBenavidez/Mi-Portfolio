@@ -1,0 +1,26 @@
+{
+    "profile": {
+        "rol": "Desarrollador Web FullStack",
+        "description": "🤓 Hola! Soy Mauricio, tengo 20 años y soy Técnico Programador y Full Stack Developer, me encanta la programación y la tecnología.",
+        "second_description": "📚 Desde qué empecé en el mundo IT busco aprender todo lo posible, afrontar nuevos desafíos y experiencias en cualquier entorno, tanto profesional como personalmente."
+    },
+    "experience": {
+        "title": "Experiencias-Estudios",
+        "first-job-title": "Técnico Programador",
+        "first-job-dates": "Enero 2016 - Diciembre 2021",
+        "first-job-description": "Finalicé mis estudios secundarios en la EPET N20 de la ciudad de Neuquén. En esta institucion realicé trabajos en equipo en individuales en los que utilice las siguientes tecnologias y lenguajes: Arduino, C++, PHP, phpMyAdmin, SQL, MySQL, Flutter, Dart, HTML, CSS.",
+        "second-job-title": "Henry",
+        "second-job-dates": "2022 - 2023",
+        "second-job-description": "Luego de terminar mis estudios continue en Henry para ampliar mis conocimientos y habilidades. Aquí realice multiples trabajos en equipo y utilice diversas tecnologias y lenguajes: Redux.js, Node.js, React.js, GitHub, CSS, HTML."
+    },
+    "hobbies": {
+        "title": "Pasatiempos",
+        "first-hobbie": "Calistenia",
+        "first-hobbie-description": "Comencé a entrenar hace ya unos 4 años en el cuarto de mi casa. Todo comenzó como un intento de cambiar mi físico. Al poco tiempo, conocí a un profesor de Calistenia y me uní a sus clases. Me gustó tanto este deporte que incluso cuando entramos en pandemia, continué entrenando en mi casa y mejorando mis habilidades físicas. Hoy en día, gracias a este deporte, he logrado hacer muy buenos amigos y e adquirido habilidades que pocas personas pueden realizar, tambien me convirtió en una persona muy disciplinada y constante, ya que aprendí la gran cantidad de cosas que se pueden lograr si uno mantiene ese estilo de vida. La Calistenia se ha convertido en una parte muy importante de mi vida y en una de las cosas que más disfruto hacer con todo mi corazón, al igual que la programación. ❤️",
+        "second-hobbie": "Videojuegos",
+        "second-hobbie-description": "Desde muy pequeño, he tenido un amor inmenso por los videojuegos. Con mis hermanos, solíamos jugar y siempre disfrutaba compitiendo contra ellos e intentando ganar. A medida que crecí, mi amor por los videojuegos continuó, pero de una manera diferente: se convirtió en una especie de pausa relajante de las actividades diarias de mi vida. Hoy en día, aunque no tengo tanto tiempo para jugar como antes, todavía encuentro alegría en conectarme con mis amigos y charlar mientras jugamos juntos. Los videojuegos no solo son una fuente de entretenimiento, sino también una forma de mantener lazos y compartir momentos especiales con amigos. 🎮"
+    },
+    "skills":{
+        "subtitle": "Años de experiencia"
+    }
+}

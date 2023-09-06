@@ -4,10 +4,276 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
     <link rel="stylesheet" href="css/styles.css" />
     <title>Portfolio</title>
   </head>
-  <body>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" 
+          class="toggle-theme__icon">
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+        <div id="toggle-colors" class="colors">
+          <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+          
+          <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+          
+          <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+          
+          <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+        </div>
+        <div class="language-bar">
+          <select id="language-select">
+            <option value="es" id="option">Español</option>
+            <option value="en"id="option">English</option>
+          </select>
+        </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- PROFILE CARD -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="./assets/images/profile.jpg"
+            alt=""/>
+          </div>
+          <div class="card__header">
+            <h2 class="card__name">Mauricio Benavidez</h2>
+            <p class="card__subtitle" data-section="profile" data-value="rol">Full stack developer</p>
+            <div class="card__body">
+              <div class="card__link">
+                <i class="fas fa-envelope icon"></i>
+                <a href="benavidezmauriciobnz@gmail.com">
+                  benavidezmauriciobnz@gmail.com
+                </a>
+              </div>
+              <div class="card__link">
+                <i class="fas fa-phone-alt icon"></i>
+                <a href="tel:+5492996742861">
+                  +54-9-2996742861
+                </a>
+              </div>
+              <p class="card__text" data-section="profile" data-value="description">
+                🤓 Hola! Soy Mauricio, tengo 20 años y soy Técnico Programador y Full Stack Developer, me encanta la programación y la tecnología.
+              </p>
+              <p class="card__text" data-section="profile" data-value="second_description">
+                📚 Desde qué empecé en el mundo IT busco aprender todo lo posible, afrontar nuevos desafíos y experiencias en cualquier entorno, tanto profesional como personalmente.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__name" data-section="experience" data-value="title">Experiencias-Estudios</h2>
+          <div class="experience">
+            <img src="./assets/images/logo.jpg" alt="epet" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="first-job-dates">
+                Enero 2016 - Diciembre 2021
+              </p>
+              <h3 class="experience__job" data-section="experience" data-value="first-job-title">Técnico Programador</h3>
+              <p class="experience__description" data-section="experience" data-value="first-job-description">Finalicé mis estudios secundarios en la EPET N20 de la ciudad de Neuquén. En esta institucion realicé trabajos en equipo en individuales en los que utilice las siguientes tecnologias y lenguajes: Arduino, C++, PHP, phpMyAdmin, SQL, MySQL, Flutter, Dart, HTML, CSS.</p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="./assets/images/logo2.png" alt="Henry" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="second-job-dates">
+                 2022 - 2023
+              </p>
+              <h3 class="experience__job" data-section="experience" data-value="second-job-title">Henry</h3>
+              <p class="experience__description" data-section="experience" data-value="first-job-description">Luego de terminar mis estudios continue en Henry para ampliar mis conocimientos y habilidades. Aquí realice multiples trabajos en equipo y utilice diversas tecnologias y lenguajes: Redux.js, Node.js, React.js, GitHub, CSS, HTML.</p>
+            </div>
+          </div>
+        </article>
+        <article class="card card--hobbies">
+          <h2 class="card__name" data-section="hobbies" data-value="title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/images/hobbie.jpg" alt="hobbie">
+          </div>
+          <h3 class="hobbie__title" data-section="hobbies" data-value="first-hobbie">Calistenia</h3>
+          <p class="card__text" data-section="hobbies" data-value="first-hobbie-description">Comencé a entrenar hace ya unos 4 años en el cuarto de mi casa. Todo comenzó como un intento de cambiar mi físico. Al poco tiempo, conocí a un profesor de Calistenia y me uní a sus clases. Me gustó tanto este deporte que incluso cuando entramos en pandemia, continué entrenando en mi casa y mejorando mis habilidades físicas. Hoy en día, gracias a este deporte, he logrado hacer muy buenos amigos y e adquirido habilidades que pocas personas pueden realizar, tambien me convirtió en una persona muy disciplinada y constante, ya que aprendí la gran cantidad de cosas que se pueden lograr si uno mantiene ese estilo de vida. La Calistenia se ha convertido en una parte muy importante de mi vida y en una de las cosas que más disfruto hacer con todo mi corazón, al igual que la programación. ❤️</p>
+          <div class="card__image-container">
+            <img src="assets/images/hobbie2.webp" alt="hobbie">
+          </div>
+          <h3 class="hobbie__title" data-section="hobbies" data-value="second-hobbie">Videojuegos</h3>
+          <p class="card__text" data-section="hobbies" data-value="second-hobbie-description">Desde muy pequeño, he tenido un amor inmenso por los videojuegos. Con mis hermanos, solíamos jugar y siempre disfrutaba compitiendo contra ellos e intentando ganar. A medida que crecí, mi amor por los videojuegos continuó, pero de una manera diferente: se convirtió en una especie de pausa relajante de las actividades diarias de mi vida. Hoy en día, aunque no tengo tanto tiempo para jugar como antes, todavía encuentro alegría en conectarme con mis amigos y charlar mientras jugamos juntos. Los videojuegos no solo son una fuente de entretenimiento, sino también una forma de mantener lazos y compartir momentos especiales con amigos. 🎮</p>
+        </article>
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__name">Full Stack</h2>
+          <small data-section="skills" data-value="subtitle">Años de experiencia</small>
+          <div class="skills"></div>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">5</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skills__tech">HTML</p>
+            <div class="div class skills__bar skills__bar--90"></div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skills__tech">CSS</p>
+            <div class="div class skills__bar skills__bar--90"></div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skills__tech">JS</p>
+            <div class="div class skills__bar skills__bar--40"></div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skills__tech">PHP</p>
+            <div class="div class skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skills__tech">React</p>
+            <div class="div class skills__bar skills__bar--40"></div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skills__tech">Redux</p>
+            <div class="div class skills__bar skills__bar--40"></div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skills__tech">NodeJS</p>
+            <div class="div class skills__bar skills__bar--40"></div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skills__tech">Express</p>
+            <div class="div class skills__bar skills__bar--40"></div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skills__tech">MySQL</p>
+            <div class="div class skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skills__tech">SQL</p>
+            <div class="div class skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skills__tech">C++</p>
+            <div class="div class skills__bar skills__bar--90"></div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skills__tech">Dart</p>
+            <div class="div class skills__bar skills__bar--60"></div>
+          </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project.jpg" alt="Landing page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JS</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">Landing Page</h2>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor orci et mi viverra, eu condimentum orci pretium. Cras et orci vitae lacus ornare posuere. Duis suscipit aliquam tellus, et laoreet justo efficitur id. Aenean tincidunt diam purus, a dapibus magna consectetur in. Aliquam eu varius felis. Sed sed erat sit amet risus eleifend fringilla. Pellentesque vulputate nisl in tellus pulvinar, non convallis dui viverra.
+            </p>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor orci et mi viverra, eu condimentum orci pretium. Cras et orci vitae lacus ornare posuere. Duis suscipit aliquam tellus, et laoreet justo efficitur id. Aenean tincidunt diam purus, a dapibus magna consectetur in. Aliquam eu varius felis. Sed sed erat sit amet risus eleifend fringilla. Pellentesque vulputate nisl in tellus pulvinar, non convallis dui viverra.
+            </p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project.jpg" alt="Landing page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JS</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">Landing Page</h2>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor orci et mi viverra, eu condimentum orci pretium. Cras et orci vitae lacus ornare posuere. Duis suscipit aliquam tellus, et laoreet justo efficitur id. Aenean tincidunt diam purus, a dapibus magna consectetur in. Aliquam eu varius felis. Sed sed erat sit amet risus eleifend fringilla. Pellentesque vulputate nisl in tellus pulvinar, non convallis dui viverra.
+            </p>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor orci et mi viverra, eu condimentum orci pretium. Cras et orci vitae lacus ornare posuere. Duis suscipit aliquam tellus, et laoreet justo efficitur id. Aenean tincidunt diam purus, a dapibus magna consectetur in. Aliquam eu varius felis. Sed sed erat sit amet risus eleifend fringilla. Pellentesque vulputate nisl in tellus pulvinar, non convallis dui viverra.
+            </p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project.jpg" alt="Landing page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JS</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">Landing Page</h2>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor orci et mi viverra, eu condimentum orci pretium. Cras et orci vitae lacus ornare posuere. Duis suscipit aliquam tellus, et laoreet justo efficitur id. Aenean tincidunt diam purus, a dapibus magna consectetur in. Aliquam eu varius felis. Sed sed erat sit amet risus eleifend fringilla. Pellentesque vulputate nisl in tellus pulvinar, non convallis dui viverra.
+            </p>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor orci et mi viverra, eu condimentum orci pretium. Cras et orci vitae lacus ornare posuere. Duis suscipit aliquam tellus, et laoreet justo efficitur id. Aenean tincidunt diam purus, a dapibus magna consectetur in. Aliquam eu varius felis. Sed sed erat sit amet risus eleifend fringilla. Pellentesque vulputate nisl in tellus pulvinar, non convallis dui viverra.
+            </p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <footer class="card footer">
+          <p id="footer-copy" class="footer__copy">Mauricio Benavidez</p>
+          <ul class="social-links">
+            <li class="social-links__item">
+              <i class="fa fa-twitter"></i>
+            </li>
+            <li class="social-links__item">
+              <i class="fa fa-facebook"></i>
+            </li>
+            <li class="social-links__item">
+              <i class="fa fa-youtube"></i>
+            </li>
+            <li class="social-links__item">
+              <i class="fa fa-linkedin"></i>
+            </li>
+            <li class="social-links__item">
+              <i class="fa fa-github"></i>
+            </li>
+            <li class="social-links__item">
+              <i class="fa fa-twitch"></i>
+            </li>
+          </ul>
+        </footer>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/a0ab449b77.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
