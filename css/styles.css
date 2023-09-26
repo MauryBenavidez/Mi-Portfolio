@@ -461,7 +461,7 @@ select {
     to {
       transform: translateX(var(--skill-bar-length));
     }
-  }
+}
 
 @keyframes skills-bar-fill {
     to{
